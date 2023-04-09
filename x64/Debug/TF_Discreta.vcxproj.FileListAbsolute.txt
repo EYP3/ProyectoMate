@@ -1,0 +1,4 @@
+C:\Users\user\Desktop\TF_Discreta\TF_Discreta\x64\Debug\TF_Discreta.vcxproj.AssemblyReference.cache
+C:\Users\user\Desktop\TF_Discreta\TF_Discreta\x64\Debug\TF_Discreta.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\TF_Discreta\TF_Discreta\x64\Debug\TFDiscreta.MyForm.resources
+C:\Users\user\Desktop\TF_Discreta\TF_Discreta\x64\Debug\TF_Discreta.vcxproj.GenerateResource.cache
