@@ -2,20 +2,23 @@
 #include<vector>
 #include<string>
 using namespace std;
-class Poto
+class Interfaz
 {
 private:
 	vector <string> A;
 	vector <string> B;
+	vector <string> C;
 	string Origen, Destino;
 public:
-	Poto() {
+	Interfaz() {
 		A = { "Lima","Piura","Chiclayo","Trujillo","Iquitos", "Cusco","PuertoMaldonado", "Juliaca", "Arequipa" };
 		B = { "CiudadMex", "Cancun", "Habana", "SantoDomin", "PuntaCana", "SanJuan", "CiudadGuate", "Flores", "SanPedro", "Belice", "Roatan", "SanSalvador", "LaCeiba", "Tegucigalpa", "Liberia", "Managua", "SanJose", "CiudaddePan", "Caracas", "Medellin", "Bogota", "Cali", "Quito", "Guayaquil", "Lima" };
+		C = { "Bogota",	"Villavicencio", "Florencia", "Neiva", "Popayán", "Pasto", "Tumaco", "Cali", "Ibagué", "Armenia", "Pereira", "Manizales", "Medellin", "Monteria", "Cartagena", "SanAndres", "Barranquilla", "SantaMarta", "Riohacha", "Valledupar", "Cucuta", "Bucaramanga", "Barrancamermeja", "Yopal", "Leticia" };
+
 		Origen = "";
 		Destino = "";
 	}
-	~Poto();
+	~Interfaz();
 
 	void setDestino(string a) {
 		Destino = a;
@@ -40,6 +43,12 @@ public:
 	}
 	vector<string> getB() {
 		return B;
+	}
+	string getItemC(int x) {
+		return C[x];
+	}
+	vector<string> getC() {
+		return C;
 	}
 
 };
