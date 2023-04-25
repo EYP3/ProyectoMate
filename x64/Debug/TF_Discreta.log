@@ -1,4 +1,6 @@
 ﻿  MyForm.cpp
 C:\Users\user\Desktop\TF_Discreta\TF_Discreta\MyForm.cpp(4,15): warning C4551: la llamada a la función no tiene lista de argumentos
+  MyForm1.cpp
+  Generando código...
   MyForm.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
   TF_Discreta.vcxproj -> C:\Users\user\Desktop\TF_Discreta\x64\Debug\TF_Discreta.exe
